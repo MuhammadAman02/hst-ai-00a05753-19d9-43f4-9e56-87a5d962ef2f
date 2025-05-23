@@ -29,14 +29,12 @@ const Header = () => {
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-primary-900 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-lg">HST</span>
-            </div>
-            <div>
-              <div className="font-bold text-xl text-primary-900">SOLUTIONS</div>
-              <div className="text-xs text-gray-600">Engineering The Future, Today</div>
-            </div>
+          <div className="flex items-center">
+            <img 
+              src="https://www.hst.ie/wp-content/uploads/2024/12/logo.svg" 
+              alt="HST Solutions" 
+              className="h-12 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
